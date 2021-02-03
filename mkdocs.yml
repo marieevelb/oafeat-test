@@ -2,7 +2,8 @@ site_name: OAFeat use case
 
 nav:
 - Home page: index.md
-- Use case: use-case-oafeat-en.ipynb
+- Use case: test.ipynb
 
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+        execute: True
